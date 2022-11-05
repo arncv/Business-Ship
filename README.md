@@ -135,7 +135,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@arnvgl](https://twitter.com/arnvgl) - arnvgl@pm.me
+Arnav Goel  - [@arnvgl](https://twitter.com/arnvgl) - arnvgl@pm.me
 
 Project Link: [https://github.com/arncv/Business-Ship](https://github.com/arncv/Business-Ship)
 
@@ -150,15 +150,15 @@ Project Link: [https://github.com/arncv/Business-Ship](https://github.com/arncv/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/arncv/Business-Ship.svg?style=for-the-badge
 [contributors-url]: https://github.com/arncv/Business-Ship/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/arncv/Business-Ship.svg?style=for-the-badge
 [forks-url]: https://github.com/arncv/Business-Ship/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/arncv/Business-Ship.svg?style=for-the-badge
 [stars-url]:https://github.com/arncv/Business-Ship/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/arncv/Business-Ship.svg?style=for-the-badge
 [issues-url]: https://github.com/arncv/Business-Ship/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/arncv/Business-Ship.svg?style=for-the-badge
 [license-url]: https://github.com/arncv/Business-Ship/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/arnvgl
