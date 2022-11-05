@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <title>Register
+    </title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/brand/BusinessShip-nobg.png" type="image/png" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/libs/@fortawesome/fontawesome-free/css/minify.css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css" id="stylesheet" />
+    <style>
+      @keyframes hidePreloader {
+        0% {
+          width: 100%;
+          height: 100%;
+        }
+        100% {
+          width: 0;
+          height: 0;
+        }
+      }
+      body > div.preloader {
+        position: fixed;
+        background: white;
+        width: 100%;
+        height: 100%;
+        z-index: 1071;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        overflow: hidden;
+        pointer-events: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      body:not(.loaded) > div.preloader {
+        opacity: 1;
+      }
+      body:not(.loaded) {
+        overflow: hidden;
+      }
+      body.loaded > div.preloader {
+        animation: hidePreloader 0.5s linear 0.5s forwards;
+      }
+    </style>
+    <script>
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          document.querySelector("body").classList.add("loaded");
+        }
+                   , 300);
+      }
+                             );
+    </script>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...
+        </span>
+      </div>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal-cookies" data-backdrop="false" aria-labelledby="modal-cookies" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-aside left-4 right-4 bottom-4">
+      </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="/">
+          <img alt="Image placeholder" src="assets/img/brand/BusinessShip-nobg.svg" id="navbar-logo" />
+        </a>
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+          </span>
+        </button>
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                Home
+              </a>
+            <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
+              <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For You
+              </a>
+              <div class="dropdown-menu dropdown-menu-single">
+                <a href="/" class="dropdown-item">Client
+                </a>
+                <a href="#" class="dropdown-item">Entrepreneur
+                </a>
+                <div class="dropdown-divider">
+                </div>
+                <a href="mailto:arnvgl@pm.me" class="dropdown-item">Enterprises
+                </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:arnvgl@pm.me">Contact
+              </a>
+            </li>
+          </ul>
+          <!-- Button -->
+          <a class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3" href="#">
+            Log in
+          </a>
+          <!-- Mobile button -->
+          <div class="d-lg-none text-center">
+            <a href="#" class="btn btn-block btn-sm btn-warning">Log in
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Main content -->
+    <section class="slice py-8 bg-dark">
+      <div class="container py-5">
+        <div class="row row-grid align-items-center">
+          <div class="col-lg-8 text-center text-lg-left">
+            <!-- Heading -->
+            <h1 class="text-white mb-4">
+              We help you sell your products
+              <br /> during these difficult times.
+
+            </h1>
+            <!-- Text -->
+            <p class="lead text-white opacity-8">
+              We don't charge anything for the use of our platform. We just want to help you.🙏
+            </p>
+            <!-- Buttons -->
+            <div class="mt-5">
+              <a href="https://wa.me/14155238886?text=join%20journey-ten" class="btn btn-warning btn-lg btn-icon">
+                <span class="btn-inner--icon">
+                  <i data-feather="edit-3">
+                  </i>
+                </span>
+                <span class="btn-inner--text">Registrations Opened!
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SVG separator -->
+      <div class="shape-container shape-line shape-position-bottom">
+        <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 2560 100" style="enable-background: new 0 0 2560 100;" xml:space="preserve" class="">
+          <polygon points="2560 0 2560 100 0 100">
+          </polygon>
+        </svg>
+      </div>
+    </section>
+    <section class="slice slice-lg-mei">
+      <div class="container">
+        <span class="badge badge-primary badge-pill">How it works?        </span>
+        <div class="row mt-4">
+          <div class="col-lg-6 pr-lg-5">
+            <p class="h5 lh-180 mb-3">
+              With a simple registration, local Entrepreneurs & consumers will contact you according to the products you offer.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p class="lead lh-180">
+              People interested in your products will contact you directly. You will be able to negotiate the price and delivery method.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slice slice-lg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-6">
+            <img src="assets/img/theme/shop.jpg" alt="Image" class="rounded-lg img-fluid" />
+            <div class="text-right mt-4">
+              <img src="assets/img/theme/cut.jpeg" alt="Image" class="rounded-lg img-fluid w-50" />
+            </div>
+          </div>
+          <div class="col-lg-7 col-6">
+            <img src="assets/img/theme/gym.jpeg" alt="Image" class="rounded-lg img-fluid w-75" />
+            <div class="text-right mt-4">
+              <img src="assets/img/theme/pots.jpg" alt="Image" class="rounded-lg img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slice slice-lg pt-10 bg-primary">
+      <!-- SVG separator -->
+      <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
+        <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 2560 100" style="enable-background: new 0 0 2560 100;" xml:space="preserve" class="">
+          <polygon points="2560 0 2560 100 0 100">
+          </polygon>
+        </svg>
+      </div>
+      <!-- Container -->
+      <div class="container">
+        <div class="row row-grid">
+          <div class="col-lg-8">
+            <!-- Badge -->
+            <span class="badge badge-warning badge-pill">Why choose Business Ship?
+            </span>
+            <!-- Title -->
+            <h2 class="my-4 text-white">We are not for profit, we are for help.
+            </h2>
+            <!-- Text -->
+            <p class="lead text-white lh-190">
+              I am a student who just want to help the local economy. Business Ship strongly believes that the best way to help is to help each other. 
+            </p>
+          </div>
+        </div>
+        <!-- Milestones -->
+        <div class="row mt-6">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card shadow-lg rounded-lg border-0 mb-sm-0">
+                  <div class="p-4 text-center text-sm-left">
+                    <h3 class="mb-0">100%
+                    </h3>
+                    <p class="text-muted mb-0">
+                      Free & Open Source
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card shadow-lg rounded-lg border-0 mb-sm-0">
+                  <div class="p-4 text-center text-sm-left">
+                    <h3 class="mb-0">100%
+                    </h3>
+                    <p class="text-muted mb-0">
+                      No hidden fees
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card shadow-lg rounded-lg border-0 mb-sm-0">
+                  <div class="p-4 text-center text-sm-left">
+                    <h3 class="mb-0">100%
+                    </h3>
+                    <p class="text-muted mb-0">
+                      No selling of data 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slice slice-lg bg-section-secondary">
+      <div class="container text-center">
+        <div class="row justify-content-center mt-4">
+          <div class="col-lg-8">
+            <!-- Title -->
+            <!-- Text -->
+            <!-- Buttons -->
+            <h3>
+              Fill the form and register your business right now for free!
+            </h3>
+            <div class="mt-5">
+              <a href="https://wa.me/14155238886?text=join%20journey-ten" class="btn btn-lg btn-warning px-4">
+                Registrations Opened!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="position-relative" id="footer-main">
+      <div class="footer footer-dark bg-dark">
+        <!-- SVG shape -->
+        <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
+        </div>
+        <!-- Footer -->
+        <div class="container pt-4">
+          <div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <!-- Theme's logo -->
+              <a href="register.html">
+                <img alt="Image placeholder" src="assets/img/brand/BusinessShip-nobg.svg" id="footer-logo">
+              </a>
+              <!-- Somos -->
+              <p class="mt-4 text-sm opacity-8 pr-lg-4">We connect you with local businesses to help them stay up!
+              </p>                     
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
+              <h6 class="heading mb-3">About Us
+              </h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Our Team
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Our Mission
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:arnvgl@pm.me">Careers
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+              <h6 class="heading mb-3">Support
+              </h6>
+              <ul class="list-unstyled text-small">
+                <li>
+                  <a href="#">Help Center
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Terms of Service
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <hr class="divider divider-fade divider-dark my-footer">
+          <div class="row align-items-center justify-content-md-between pb-4">
+            <div class="col-md-6">
+              <div class="copyright text-sm font-weight-bold text-center text-md-left">
+                Made with 🧡 by
+                <a href="https://www.arnavgoel.xyz" class="font-weight-bold" target="_blank">Arnav
+                </a>.
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Core JS  -->
+    <script src="assets/libs/jquery/dist/jquery.min.js">
+    </script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="assets/libs/svg-injector/dist/svg-injector.min.js">
+    </script>
+    <script src="assets/libs/feather-icons/dist/feather.min.js">
+    </script>
+    <!-- mei -->
+    <script src="assets/js/businessship.js">
+    </script>
+    <!-- Feather Icons -->
+    <script>
+      feather.replace({
+        width: "1em",
+        height: "1em",
+      }
+                     );
+    </script>
+    
+    
+  </body>
+</html>
