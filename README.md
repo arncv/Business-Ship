@@ -58,7 +58,6 @@ src="https://www.twilio.com/docs/static/dist/img/559bc7cf.svg" alt="twilio" widt
 
 
 
-
 ## Inspiration
  After the COVID-19 pandemic, many small businesses wiped away. Right now, due to high inflation, big business are crushing local businesses, and they are forced to shut down. In order to give back to the community and support local economies, we created Business Ship.
  
@@ -67,6 +66,7 @@ src="https://www.twilio.com/docs/static/dist/img/559bc7cf.svg" alt="twilio" widt
 ## What it does
 Business Ship brings microentrepreneurs, and they help the small-businesses to generate revenue by selling their products to consumers. Through this, customers could also directly contact the businesses and negotiate directly. This would help in creating a healthy & thriving local economy.
 
+<img src="assets/img/brand/ss2.png" alt="Logo" width="941" height="444.1">
 
 
 ## How we built it
