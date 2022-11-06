@@ -30,7 +30,7 @@
   <p align="center">
     help small businesses stay afloat!
     <br />
-    <a href="https://github.com/arncv/Business-Ship"><strong>Explore the docs »</strong></a>
+    <a href="https://www.youtube.com/watch?v=3ZCMxn9KC8w"><strong>Demo Video Link! »</strong></a>
     <br />
     <br />
     <a href="https://github.com/arncv/Business-Ship">View Demo</a>
