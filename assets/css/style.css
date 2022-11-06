@@ -582,7 +582,7 @@ a.btn.disabled,fieldset:disabled a.btn{pointer-events:none}
 .btn-info.disabled,.btn-info:disabled{color:#fff;border-color:#50b5ff;background-color:#50b5ff}
 .btn-info:not(:disabled):not(.disabled):active,.btn-info:not(:disabled):not(.disabled).active,.show > .btn-info.dropdown-toggle{color:#fff;border-color:#109aff;background-color:#1d9fff}
 .btn-info:not(:disabled):not(.disabled):active:focus,.btn-info:not(:disabled):not(.disabled).active:focus,.show > .btn-info.dropdown-toggle:focus{box-shadow:0 0 0 rgba(80,181,255,.35)}
-.btn-warning{color:#fff;border-color:#ffbe3d;background-color:#FFBF69;box-shadow:none}
+.btn-warning{color:#fff;border-color: #00ff4e;background-color: #06ff00;box-shadow:none}
 .btn-warning:hover{color:#fff;border-color:#ffad0a;background-color:#ffb117}
 .btn-warning:focus,.btn-warning.focus{box-shadow:none,0 0 0 rgba(255,190,61,.35)}
 .btn-warning.disabled,.btn-warning:disabled{color:#fff;border-color:#ffbe3d;background-color:#ffbe3d}
