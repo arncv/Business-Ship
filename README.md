@@ -22,7 +22,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/arncv/Business-Ship">
-    <img src="assets/img/brand/BusinessShip.png" alt="Logo" width="100" height="100">
+    <img src="assets/img/brand/BusinessShip.png" alt="Logo" width="300" height="240">
   </a>
 
 <h3 align="center">Business Ship</h3>
@@ -33,7 +33,7 @@
     <a href="https://www.youtube.com/watch?v=3ZCMxn9KC8w"><strong>Demo Video Link! »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/arncv/Business-Ship">View Demo</a>
+    <a href="https://devpost.com/software/business-ship">Devpost Link</a>
     ·
     <a href="https://github.com/arncv/Business-Ship/issues">Report Bug</a>
     ·
